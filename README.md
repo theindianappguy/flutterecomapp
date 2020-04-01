@@ -4,6 +4,8 @@
 
 Live Demo : http://bit.ly/flutterecomapp
 
+Design Credits : https://gumroad.com/l/kamartaj
+
 Youtube Video : https://youtu.be/OQ-6Zo0vbAk
 
 ## Show Support
