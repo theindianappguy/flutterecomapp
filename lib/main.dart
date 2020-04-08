@@ -293,7 +293,7 @@ class TrendingTile extends StatelessWidget {
 
 class StarRating extends StatelessWidget {
 
-  int rating;
+  final int rating;
   StarRating({this.rating});
 
   @override
@@ -317,11 +317,11 @@ class StarRating extends StatelessWidget {
 
 class ProductTile extends StatelessWidget {
 
-  int priceInDollars;
-  String productName;
-  int rating;
-  String imgUrl;
-  int noOfRating;
+  final int priceInDollars;
+  final String productName;
+  final int rating;
+  final String imgUrl;
+  final int noOfRating;
 
   ProductTile({this.priceInDollars, this.imgUrl, this.rating,this.productName, this.noOfRating});
 
@@ -374,10 +374,10 @@ class ProductTile extends StatelessWidget {
 
 class CategorieTile extends StatelessWidget {
 
-  String categorieName;
-  String imgAssetPath;
-  String color1;
-  String color2;
+  final String categorieName;
+  final String imgAssetPath;
+  final String color1;
+  final String color2;
 
   CategorieTile({this.imgAssetPath,this.color2,this.color1,this.categorieName});
 
