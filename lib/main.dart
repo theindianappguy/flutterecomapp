@@ -194,12 +194,12 @@ class _MyHomePageState extends State<MyHomePage> {
 
 class TrendingTile extends StatelessWidget {
 
-  String productName;
-  String storename;
-  String imgUrl;
-  int noOfRating;
-  int priceInDollars;
-  int rating;
+  final String productName;
+  final String storename;
+  final String imgUrl;
+  final int noOfRating;
+  final int priceInDollars;
+  final int rating;
   TrendingTile({this.productName,this.storename,this.imgUrl,this.rating,this.noOfRating,this.priceInDollars});
 
   @override
